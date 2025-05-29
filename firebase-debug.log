@@ -1,0 +1,79 @@
+[debug] [2024-12-23T07:03:02.662Z] ----------------------------------------------------------------------
+[debug] [2024-12-23T07:03:02.667Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Raihan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-12-23T07:03:02.668Z] CLI Version:   13.29.1
+[debug] [2024-12-23T07:03:02.668Z] Platform:      win32
+[debug] [2024-12-23T07:03:02.668Z] Node Version:  v22.12.0
+[debug] [2024-12-23T07:03:02.669Z] Time:          Mon Dec 23 2024 13:03:02 GMT+0600 (Bangladesh Standard Time)
+[debug] [2024-12-23T07:03:02.669Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-23T07:03:02.681Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-23T07:03:02.681Z] > authorizing via signed-in user (bicerinx@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Wanderly
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-12-23T07:03:37.213Z] Checked if tokens are valid: true, expires at: 1734940593177
+[debug] [2024-12-23T07:03:37.213Z] Checked if tokens are valid: true, expires at: 1734940593177
+[debug] [2024-12-23T07:03:37.215Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-12-23T07:03:39.259Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-12-23T07:03:39.260Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project wander-ly (Wanderly) 
+[info] 
+=== Database Setup
+[info] i  database: ensuring required API firebasedatabase.googleapis.com is enabled... 
+[debug] [2024-12-23T07:03:48.728Z] Checked if tokens are valid: true, expires at: 1734940593177
+[debug] [2024-12-23T07:03:48.729Z] Checked if tokens are valid: true, expires at: 1734940593177
+[debug] [2024-12-23T07:03:48.729Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wander-ly/services/firebasedatabase.googleapis.com [none]
+[debug] [2024-12-23T07:03:48.729Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wander-ly/services/firebasedatabase.googleapis.com x-goog-quota-user=projects/wander-ly
+[debug] [2024-12-23T07:03:50.922Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wander-ly/services/firebasedatabase.googleapis.com 200
+[debug] [2024-12-23T07:03:50.922Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wander-ly/services/firebasedatabase.googleapis.com [omitted]
+[warn] !  database: missing required API firebasedatabase.googleapis.com. Enabling now... 
+[debug] [2024-12-23T07:03:50.923Z] Checked if tokens are valid: true, expires at: 1734940593177
+[debug] [2024-12-23T07:03:50.924Z] Checked if tokens are valid: true, expires at: 1734940593177
+[debug] [2024-12-23T07:03:50.924Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/wander-ly/services/firebasedatabase.googleapis.com:enable [none]
+[debug] [2024-12-23T07:03:50.924Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/wander-ly/services/firebasedatabase.googleapis.com:enable x-goog-quota-user=projects/wander-ly
+[debug] [2024-12-23T07:03:51.948Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/wander-ly/services/firebasedatabase.googleapis.com:enable 200
+[debug] [2024-12-23T07:03:51.948Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/wander-ly/services/firebasedatabase.googleapis.com:enable [omitted]
+[debug] [2024-12-23T07:04:01.955Z] Checked if tokens are valid: true, expires at: 1734940593177
+[debug] [2024-12-23T07:04:01.955Z] Checked if tokens are valid: true, expires at: 1734940593177
+[debug] [2024-12-23T07:04:01.955Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wander-ly/services/firebasedatabase.googleapis.com [none]
+[debug] [2024-12-23T07:04:01.955Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wander-ly/services/firebasedatabase.googleapis.com x-goog-quota-user=projects/wander-ly
+[debug] [2024-12-23T07:04:04.134Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wander-ly/services/firebasedatabase.googleapis.com 200
+[debug] [2024-12-23T07:04:04.134Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wander-ly/services/firebasedatabase.googleapis.com [omitted]
+[info] +  database: required API firebasedatabase.googleapis.com is enabled 
+[info] 
+[debug] [2024-12-23T07:04:04.140Z] Checked if tokens are valid: true, expires at: 1734940593177
+[debug] [2024-12-23T07:04:04.141Z] Checked if tokens are valid: true, expires at: 1734940593177
+[debug] [2024-12-23T07:04:04.141Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/wander-ly [none]
+[debug] [2024-12-23T07:04:05.054Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/wander-ly 200
+[debug] [2024-12-23T07:04:05.054Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/wander-ly {"projectId":"wander-ly","projectNumber":"110885406569","displayName":"Wanderly","name":"projects/wander-ly","resources":{"hostingSite":"wander-ly"},"state":"ACTIVE","etag":"1_1fc00c52-3922-4266-a765-5766ecd29fed"}
+[debug] [2024-12-23T07:04:24.208Z] Checked if tokens are valid: true, expires at: 1734940593177
+[debug] [2024-12-23T07:04:24.208Z] Checked if tokens are valid: true, expires at: 1734940593177
+[debug] [2024-12-23T07:04:24.209Z] >>> [apiv2][query] POST https://firebasedatabase.googleapis.com/v1beta/projects/wander-ly/locations/asia-southeast1/instances databaseId=wander-ly-default-rtdb&validateOnly=true
+[debug] [2024-12-23T07:04:24.209Z] >>> [apiv2][body] POST https://firebasedatabase.googleapis.com/v1beta/projects/wander-ly/locations/asia-southeast1/instances {"type":"default_database"}
+[debug] [2024-12-23T07:04:26.458Z] <<< [apiv2][status] POST https://firebasedatabase.googleapis.com/v1beta/projects/wander-ly/locations/asia-southeast1/instances 200
+[debug] [2024-12-23T07:04:26.458Z] <<< [apiv2][body] POST https://firebasedatabase.googleapis.com/v1beta/projects/wander-ly/locations/asia-southeast1/instances {"name":"projects/110885406569/locations/asia-southeast1/instances/wander-ly-default-rtdb","project":"projects/110885406569","databaseUrl":"https://wander-ly-default-rtdb.asia-southeast1.firebasedatabase.app","type":"DEFAULT_DATABASE","state":"ACTIVE"}
+[debug] [2024-12-23T07:04:26.460Z] Checked if tokens are valid: true, expires at: 1734940593177
+[debug] [2024-12-23T07:04:26.460Z] Checked if tokens are valid: true, expires at: 1734940593177
+[debug] [2024-12-23T07:04:26.460Z] >>> [apiv2][query] POST https://firebasedatabase.googleapis.com/v1beta/projects/wander-ly/locations/asia-southeast1/instances databaseId=wander-ly-default-rtdb
+[debug] [2024-12-23T07:04:26.460Z] >>> [apiv2][body] POST https://firebasedatabase.googleapis.com/v1beta/projects/wander-ly/locations/asia-southeast1/instances {"type":"default_database"}
+[debug] [2024-12-23T07:04:27.173Z] <<< [apiv2][status] POST https://firebasedatabase.googleapis.com/v1beta/projects/wander-ly/locations/asia-southeast1/instances 200
+[debug] [2024-12-23T07:04:27.173Z] <<< [apiv2][body] POST https://firebasedatabase.googleapis.com/v1beta/projects/wander-ly/locations/asia-southeast1/instances {"name":"projects/110885406569/locations/asia-southeast1/instances/wander-ly-default-rtdb","project":"projects/110885406569","databaseUrl":"https://wander-ly-default-rtdb.asia-southeast1.firebasedatabase.app","type":"DEFAULT_DATABASE","state":"ACTIVE"}
+[info] 
+[info] Firebase Realtime Database Security Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
